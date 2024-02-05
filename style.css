@@ -1,0 +1,14 @@
+:root{
+        --base-color: background:rgba(255, 255, 255, 1);
+        --active-link:rgba(199, 199, 199, 1);
+    }
+a {
+    text-decoration: none;
+    color: currentColor;
+}
+ul {
+    list-style: none;
+}
+body {
+    font-family: "Roboto";
+}
