@@ -122,17 +122,169 @@ body {
 }
 /* ----------benefits---------- */
 .benefits{
+    background-image: url(img/Group\ 8\ 1.png);
+}
+.benefits_list{
+    border: 5px solid #8E32C6;
+    width: 1110px;
+    height: 396px;
+    display: flex;
+    gap: 145px;
+    margin-right: 165px;
+    margin-left: 165px;
 
+
+}
+.benefits_item{
+
+}
+.benefits_text{
+        color: #FFF;
+        text-align: center;
+        font-family: "Playfair Display";
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        width: 159px;
+        height: 102px;
+        flex-shrink: 0;
+}
+.benefits_img{
+        width: 240px;
+        height: 240px;
+}
+.benefits_line{
+    width: 1440px;
+    height: 2px;
+    background: #FFF;
 }
 /* ----------reviews---------- */
 .reviews{
-
+    background-image: url(img/Group\ 6\ 1.png);
+}
+.reviews_title{
+        width: 175px;
+        height: 65px;
+        color: #FFF;
+        text-align: center;
+        font-family: "Playfair Display";
+        font-size: 48px;
+        font-weight: 400;
+        display: flex;
+        justify-content: center;
+}
+.reviews_list{
+    display: flex;
+    gap: 125px;
+    justify-content: center;
+}
+.reviews_item_first{
+        width: 255px;
+        height: 292px;
+        border-radius: 15px;
+        background: linear-gradient(137deg, #00E5E6 7.29%, #00A8F7 26.04%, #9A76F9 62.5%, #CC5EC2 100%);
+        box-shadow: 0px 30px 0px -13px #533978, 0px 14px 0px -5px #7B54B2;
+}
+.reviews_text{
+        width: 228px;
+        color: #FFF;
+        font-family: Roboto;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal
+}
+.reviews_date{
+        color: #D8D8D8;
+        font-family: Roboto;
+        font-size: 14px;
+        font-weight: 400;
+}
+.reviews_img{
+        width: 31px;
+        height: 31px;
+        border-radius: 31px;
+}
+.reviews_name{
+        color: #FFF;
+        font-family: Roboto;
+        font-size: 14px;
+        font-weight: 400;
+}
+.reviews_birthday{
+        color: #D8D8D8;
+        font-family: Roboto;
+        font-size: 12px;
+        font-weight: 400;
+}
+.reviews_item{
+        width: 255px;
+        height: 292px;
+        border-radius: 15px;
+        background: linear-gradient(137deg, #FF68B4 0%, #FF45E1 26.04%, #CE3AFF 62.84%, #8961FF 100%);
+        box-shadow: 0px 30px 0px -13px #61337C, 0px 14px 0px -5px #9159B1;
+}
+.reviews_item_last{
+        width: 255px;
+        height: 292px;
+        border-radius: 15px;
+        background: linear-gradient(143deg, #FFE128 0%, #FF9B5C 30.21%, #FF8381 63.29%, #FF5489 100%);
+        box-shadow: 0px 30px 0px -13px #732F26, 0px 14px 0px -5px #B95A4C;
+}
+.reviews_img{
+        color: #D8D8D8;
+        font-family: Roboto;
+        font-size: 12px;
+        font-weight: 400;
+        display: flex;
 }
 /*---------- registration---------- */
 .registration{
 
 }
 /* ----------footer---------- */
-.footer{
-    
+.footer {
+    background: #021635;
+}
+
+.footer_question {
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 400;
+    display: flex;
+}
+
+.footer_gmail {
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration-line: underline;
+}
+
+.footer_p {
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.footer_logotype {
+    width: 108px;
+    height: 81px;
+}
+
+.footer_link {
+    width: 178px;
+    height: 86px;
+    color: #FFF;
+    font-family: "PT Serif";
+    font-size: 24px;
+    font-weight: 400;
 }
