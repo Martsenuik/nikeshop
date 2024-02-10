@@ -9,12 +9,13 @@ body {
     font-family: "Roboto";
     background-color: #012D63;
 }
-.container{
-            width: 1440px;
-            padding-left: 160px;
-            padding-right: 160px;
-            margin-right: auto;
-            margin-left: auto;
+.container {
+    width: 1440px;
+    padding-left: 160px;
+    padding-right: 160px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-right: 0px;
 }
 .header{
         font-size: 14px;
@@ -28,9 +29,9 @@ body {
             
 }
 .nav-img{
-     margin-left: 160px;
-     margin-left: 16px;
-     margin-top: 30px;
+            width: 100px;
+            height: 60px;
+
 }
 .nav{
 
@@ -42,35 +43,25 @@ body {
     font-weight: 300;
 }
 .nav-item{
-    width: 125px;
-    height: 30px;
-    display: flex;
     gap: 30px;
     color: #C7C7C7;
     font-size: 24px;
-    font-weight: 300;
 }
 .nav-item-ua{
-        width: 81px;
-        height: 30px;
         color: #ffffff;
-        font-size: 24px;
-        font-weight: 300;
-}yh
+}
 .nav-link{
 
 }
+
+
+    /* ----------main---------- */
+
+
 .main{
 
 }
-.div{
-            width: 1440px;
-            height: 858px;
-            padding-left: 160px;
-            padding-right: 160px;
-            margin-right: auto;
-            margin-left: auto;
-}
+
 .buy-now{
     background-image: url(img/Group\ 37\ \(1\)\ 1\ \(1\).png);
 }
@@ -93,6 +84,8 @@ body {
         font-family: "Playfair Display";
         font-size: 144px;
         font-weight: 400;
+        margin-top: 0px;
+        margin-bottom: 0px;
 }
 .buy-now-title-2{
         color: #FFF;
@@ -127,6 +120,19 @@ body {
         font-weight: 400;
         line-height: normal;
 }
+/* ----------benefits---------- */
 .benefits{
 
+}
+/* ----------reviews---------- */
+.reviews{
+
+}
+/*---------- registration---------- */
+.registration{
+
+}
+/* ----------footer---------- */
+.footer{
+    
 }
