@@ -8,6 +8,8 @@ ul {
 body {
     font-family: "Roboto";
     background-color: #012D63;
+    width: 1440px;
+        height: 2875px;
 }
 .container {
     width: 1440px;
@@ -167,7 +169,6 @@ body {
         width: 175px;
         height: 65px;
         color: #FFF;
-        text-align: center;
         font-family: "Playfair Display";
         font-size: 48px;
         font-weight: 400;
@@ -178,13 +179,6 @@ body {
     display: flex;
     gap: 125px;
     justify-content: center;
-}
-.reviews_item_first{
-        width: 255px;
-        height: 292px;
-        border-radius: 15px;
-        background: linear-gradient(137deg, #00E5E6 7.29%, #00A8F7 26.04%, #9A76F9 62.5%, #CC5EC2 100%);
-        box-shadow: 0px 30px 0px -13px #533978, 0px 14px 0px -5px #7B54B2;
 }
 .reviews_text{
         width: 228px;
@@ -218,6 +212,13 @@ body {
         font-size: 12px;
         font-weight: 400;
 }
+.reviews_item_first {
+    width: 255px;
+    height: 292px;
+    border-radius: 15px;
+    background: linear-gradient(137deg, #00E5E6 7.29%, #00A8F7 26.04%, #9A76F9 62.5%, #CC5EC2 100%);
+    box-shadow: 0px 30px 0px -13px #533978, 0px 14px 0px -5px #7B54B2;
+}
 .reviews_item{
         width: 255px;
         height: 292px;
@@ -241,6 +242,44 @@ body {
 }
 /*---------- registration---------- */
 .registration{
+
+}
+.registration_title{
+    color: #FFF;
+    font-family: "Playfair Display";
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.registration_form_main{
+        width: 690px;
+        height: 60px;
+        border-radius: 50px;
+        background: #FFF;
+}
+.registration_item_main{
+        width: 205px;
+        height: 35px;
+        color: #959595;
+        font-size: 28px;
+        font-weight: 400;
+}
+.registration_item{
+   color: #959595;
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.registration_form{
+
+}
+.registration_button{
+
+}
+.registration_button_text{
 
 }
 /* ----------footer---------- */
