@@ -45,7 +45,6 @@
 
 
     <main class="main">
-      <div class="container"></div>
       <section class="buy-now">
         <div class="container">
           <img
@@ -96,15 +95,19 @@
       <section class="reviews">
          <h3 class="reviews_title">Reviews</h3>
         <ul class="reviews_list">
-         <li class="reviews_item_first">
+        <li class="reviews_item_first">
           <p class="reviews_text">Sneakers are very <br>
             comfortable and well <br>
             painted, nothing has <br>
             worn off in a year.</p>
           <p class="reviews_date">25.11</p>
+          <div class="reviews_wrap">
           <img class="reviews_img" src="img/Ellipse 17.png" alt="чоловік">
+          <div class="reviews_wpap_text">
           <p class="reviews_name">John Teylor</p>
           <p class="reviews_birthday">With us from 2018</p>
+          </div>
+          </div>
          </li>
          <li class="reviews_item">
           <p class="reviews_text">I'm very happy with <br>
@@ -112,9 +115,13 @@
              They match all my <br>
              clothes.</p>
           <p class="reviews_date">05.01</p>
-          <img class="reviews_img" src="img/Ellipse 18.png" alt="жінка">
-          <p class="reviews_name">Elizabeth Garsia</p>
+          <div class="reviews_wrap">
+            <img class="reviews_img" src="img/Ellipse 18.png" alt="жінка">
+          <div class="reviews_wpap_text">
+            <p class="reviews_name">Elizabeth Garsia</p>
           <p class="reviews_birthday">With us from 2020</p>
+          </div>
+          </div>
          </li>
          <li class="reviews_item_last">
           <p class="reviews_text">Just right if you need <br>
@@ -122,13 +129,19 @@
              I use them actively,<br>
               the paint is super.</p>
           <p class="reviews_date">18.06</p>
+          <div class="reviews_wrap">
           <img class="reviews_img" src="img/Ellipse 19.png" alt="чоловік №2">
+          <div class="reviews_wpap_text">
           <p class="reviews_name">Tom Maquare</p>
           <p class="reviews_birthday">With us from 2019</p>
+          </div>
+          </div>
          </li>
       </ul>
       <img class="reviews_img_flower" src="img/цветы 2 1.png" alt="квіти">
       </section>
+
+
 
 
 
@@ -139,45 +152,65 @@
        <ul class="registration_list">
 
       <li class="registration_item_main"><form>
-    <input type="text" name="email" placeholder="Write your email" />
+    <input class="registration_item_main" type="text" name="email" placeholder="Write your email" />
      </form>
       </li>
 
        <li class="registration_item"><form>
-    <input type="text" name="username" placeholder="Your Country" />
+    <input class="registration_item" type="text" name="username"  placeholder="Your Country" />
      </form>
       </li>
 
        <li class="registration_item"><form>
-    <input type="text" name="username" placeholder="Your City" />
+    <input class="registration_item" type="text" name="username"  placeholder="Your City" />
      </form>
        </li>
        <li class="registration_item"><form>
-    <input type="text" name="username" placeholder="Your Adress" />
+    <input class="registration_item" type="text" name="username"  placeholder="Your Adress" />
       </form>
         </li>
 
       </ul>
-      
+
       <button class="registration_button" type="button"><span class="registration_button_text">Order my Nike</span></button>
 
       </section>
     </main>
+
+
+
+
+
+
+
+
     <footer class="footer container">
-      <p class="footer_question">Have a question? <br>
+      <ul class="footer_list">
+      <li class="footer_item">
+        <p class="footer_question">Have a question? <br>
         Have a proposal for cooperation? <br>
         Advertising questions? <br> </p>
+      </li>
+      <li class="footer_item">
         <a class="footer_gmail" target="_blank" href="mailto:info@devstudio.com">ColoRawe_support@gmail.com</a> <br>
         <a class="footer_gmail" target="_blank" href="mailto:info@devstudio.com">ColoRawe_Cooperation@gmail.com</a> <br>
         <a class="footer_gmail" target="_blank" href="mailto:info@devstudio.com">ColoRawe_Advertising@gmail.com</a> <br>
+        </li>
+      </ul>
         <img src="img/Line 1.png" alt="лінія">
-        <p class="footer_p">
+        <ul class="footer_list">
+        <li>
+          <p class="footer_p">
           2022 ColoRawe @All rights reserved <br>
           United States
         </p>
+        </li>
+        <li>
          <img class="footer_logotype" src="img/ed69f7fa91929ff49ecafac2bfd72360 2.png" alt="logotype">
          <p class="footer_link">С&R</p>
-      
+         </li>
+         </ul>
+          
       </footer>
       
   </body>

@@ -8,16 +8,12 @@ ul {
 body {
     font-family: "Roboto";
     background-color: #012D63;
-    width: 1440px;
-        height: 2875px;
+
 }
 .container {
-    width: 1440px;
-    padding-left: 160px;
-    padding-right: 160px;
+    width: 1110px;
     margin-right: auto;
     margin-left: auto;
-    margin-right: 0px;
 }
 .header{
         font-size: 14px;
@@ -66,6 +62,8 @@ body {
 
 .buy-now{
     background-image: url(img/Group\ 37\ \(1\)\ 1\ \(1\).png);
+    width: 1440px;
+        height: 858px;
 }
 .buy-now-img{
         width: 160px;
@@ -125,6 +123,7 @@ body {
 /* ----------benefits---------- */
 .benefits{
     background-image: url(img/Group\ 8\ 1.png);
+    height: 606px;
 }
 .benefits_list{
     border: 5px solid #8E32C6;
@@ -134,8 +133,7 @@ body {
     gap: 145px;
     margin-right: 165px;
     margin-left: 165px;
-
-
+    
 }
 .benefits_item{
 
@@ -145,12 +143,9 @@ body {
         text-align: center;
         font-family: "Playfair Display";
         font-size: 36px;
-        font-style: normal;
         font-weight: 400;
-        line-height: normal;
         width: 159px;
         height: 102px;
-        flex-shrink: 0;
 }
 .benefits_img{
         width: 240px;
@@ -160,58 +155,78 @@ body {
     width: 1440px;
     height: 2px;
     background: #FFF;
+    margin-top: 115px;
 }
 /* ----------reviews---------- */
-.reviews{
+.reviews {
     background-image: url(img/Group\ 6\ 1.png);
 }
-.reviews_title{
-        width: 175px;
-        height: 65px;
-        color: #FFF;
-        font-family: "Playfair Display";
-        font-size: 48px;
-        font-weight: 400;
-        display: flex;
-        justify-content: center;
+
+.reviews_title {
+    width: 175px;
+    height: 65px;
+    color: #FFF;
+    font-family: "Playfair Display";
+    font-size: 48px;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
 }
-.reviews_list{
+
+.reviews_list {
     display: flex;
     gap: 125px;
     justify-content: center;
+    
 }
-.reviews_text{
-        width: 228px;
-        color: #FFF;
-        font-family: Roboto;
-        font-size: 24px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: normal
+.reviews_item{
+    padding: 50px 14px 30px 14px;
 }
-.reviews_date{
-        color: #D8D8D8;
-        font-family: Roboto;
-        font-size: 14px;
-        font-weight: 400;
+.reviews_item_first{
+    padding: 50px 14px 30px 14px;
 }
-.reviews_img{
-        width: 31px;
-        height: 31px;
-        border-radius: 31px;
+.reviews_item_last{
+    padding: 50px 14px 30px 14px;
 }
-.reviews_name{
-        color: #FFF;
-        font-family: Roboto;
-        font-size: 14px;
-        font-weight: 400;
+.reviews_text {
+    width: 228px;
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 8px;
 }
-.reviews_birthday{
-        color: #D8D8D8;
-        font-family: Roboto;
-        font-size: 12px;
-        font-weight: 400;
+
+.reviews_date {
+    color: #D8D8D8;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 47px;
 }
+.reviews_wrap{
+ display: flex;
+}
+.reviews_img {
+    width: 31px;
+    height: 31px;
+    border-radius: 31px;
+    margin-right: 5px;
+}
+
+.reviews_name {
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.reviews_birthday {
+    color: #D8D8D8;
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 400;
+}
+
 .reviews_item_first {
     width: 255px;
     height: 292px;
@@ -219,72 +234,91 @@ body {
     background: linear-gradient(137deg, #00E5E6 7.29%, #00A8F7 26.04%, #9A76F9 62.5%, #CC5EC2 100%);
     box-shadow: 0px 30px 0px -13px #533978, 0px 14px 0px -5px #7B54B2;
 }
-.reviews_item{
-        width: 255px;
-        height: 292px;
-        border-radius: 15px;
-        background: linear-gradient(137deg, #FF68B4 0%, #FF45E1 26.04%, #CE3AFF 62.84%, #8961FF 100%);
-        box-shadow: 0px 30px 0px -13px #61337C, 0px 14px 0px -5px #9159B1;
+
+.reviews_item {
+    width: 255px;
+    height: 292px;
+    border-radius: 15px;
+    background: linear-gradient(137deg, #FF68B4 0%, #FF45E1 26.04%, #CE3AFF 62.84%, #8961FF 100%);
+    box-shadow: 0px 30px 0px -13px #61337C, 0px 14px 0px -5px #9159B1;
 }
-.reviews_item_last{
-        width: 255px;
-        height: 292px;
-        border-radius: 15px;
-        background: linear-gradient(143deg, #FFE128 0%, #FF9B5C 30.21%, #FF8381 63.29%, #FF5489 100%);
-        box-shadow: 0px 30px 0px -13px #732F26, 0px 14px 0px -5px #B95A4C;
+
+.reviews_item_last {
+    width: 255px;
+    height: 292px;
+    border-radius: 15px;
+    background: linear-gradient(143deg, #FFE128 0%, #FF9B5C 30.21%, #FF8381 63.29%, #FF5489 100%);
+    box-shadow: 0px 30px 0px -13px #732F26, 0px 14px 0px -5px #B95A4C;
 }
-.reviews_img{
-        color: #D8D8D8;
-        font-family: Roboto;
-        font-size: 12px;
-        font-weight: 400;
-        display: flex;
+
+.reviews_img {
+    color: #D8D8D8;
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 400;
+    display: flex;
 }
 /*---------- registration---------- */
 .registration{
-
-}
+        background-image: url(img/Group\ 2\ 1.png);
+        width: 1440px;
+        height: 509px;
+    }
 .registration_title{
     color: #FFF;
     font-family: "Playfair Display";
     font-size: 48px;
-    font-style: normal;
     font-weight: 400;
-    line-height: normal;
+    margin-left: 655px;
+    margin-top: 21px;
+    margin-bottom: 33px;
+    
+}
+.registration_list{
+
 }
 .registration_form_main{
         width: 690px;
         height: 60px;
         border-radius: 50px;
         background: #FFF;
+        margin-left: 375px;
+        margin-right: 375px;
 }
 .registration_item_main{
-        width: 205px;
-        height: 35px;
-        color: #959595;
-        font-size: 28px;
-        font-weight: 400;
+        width: 690px;
+        height: 60px;
+        border-radius: 50px;
+        background: #FFF;
 }
 .registration_item{
-   color: #959595;
-    font-family: Roboto;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-}
-.registration_form{
-
+    width: 580px;
+    height: 50px;
+    border-radius: 50px;
+    background: #FFF;
 }
 .registration_button{
-
+        width: 248px;
+        height: 68px;
+        border-radius: 16px;
+        background: #8E32C6;
 }
 .registration_button_text{
-
+        color: #FFF;
+        font-size: 24px;
+        font-weight: 400;
 }
 /* ----------footer---------- */
 .footer {
     background: #021635;
+}
+.footer_list{
+ display: flex;
+ justify-content: space-between;
+}
+
+.footer_item{
+
 }
 
 .footer_question {
@@ -292,7 +326,6 @@ body {
     font-family: Roboto;
     font-size: 24px;
     font-weight: 400;
-    display: flex;
 }
 
 .footer_gmail {
