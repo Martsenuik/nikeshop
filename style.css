@@ -123,7 +123,8 @@ body {
 /* ----------benefits---------- */
 .benefits{
     background-image: url(img/Group\ 8\ 1.png);
-    height: 606px;
+    height: 607px;
+    padding-top: 105px;
 }
 .benefits_list{
     border: 5px solid #8E32C6;
@@ -155,7 +156,7 @@ body {
     width: 1440px;
     height: 2px;
     background: #FFF;
-    margin-top: 115px;
+    margin-top: 105px;
 }
 /* ----------reviews---------- */
 .reviews {
@@ -171,6 +172,9 @@ body {
     font-weight: 400;
     display: flex;
     justify-content: center;
+    margin-left: 633px;
+    
+    margin-bottom: 24px;
 }
 
 .reviews_list {
