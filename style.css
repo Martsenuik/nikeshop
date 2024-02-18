@@ -131,9 +131,9 @@ body {
     width: 1110px;
     height: 396px;
     display: flex;
-    gap: 145px;
+    gap: 95px;
     margin-right: 165px;
-    margin-left: 165px;
+        margin-left: 165px;
     
 }
 .benefits_item{
@@ -147,10 +147,18 @@ body {
         font-weight: 400;
         width: 159px;
         height: 102px;
+        margin-top: 22px;
 }
 .benefits_img{
         width: 240px;
         height: 240px;
+}
+.benefits_line_top{
+    border: 1px;
+    width: 1px;
+    height: 346px;
+    background: #FFF;
+    margin-top: 25px;
 }
 .benefits_line{
     width: 1440px;
@@ -160,7 +168,12 @@ body {
 }
 /* ----------reviews---------- */
 .reviews {
-    background-image: url(img/Group\ 6\ 1.png);
+    background-image: url('img/цветы\ 2\ 1.png') ,
+    url(img/Group\ 6\ 1.png);
+    background-repeat: no-repeat;
+    background-position: bottom 1px left 1px, center;
+    width: 1440px;
+    height: 520px;
 }
 
 .reviews_title {
@@ -173,7 +186,6 @@ body {
     display: flex;
     justify-content: center;
     margin-left: 633px;
-    
     margin-bottom: 24px;
 }
 
@@ -279,27 +291,34 @@ body {
     
 }
 .registration_list{
-
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   gap: 20px;
 }
 .registration_form_main{
         width: 690px;
         height: 60px;
         border-radius: 50px;
         background: #FFF;
-        margin-left: 375px;
-        margin-right: 375px;
 }
 .registration_item_main{
         width: 690px;
         height: 60px;
         border-radius: 50px;
         background: #FFF;
+        
 }
 .registration_item{
     width: 580px;
     height: 50px;
     border-radius: 50px;
     background: #FFF;
+    margin: 0auto;
+}
+.registration_button_div{
+margin-left: 596px;
+margin-top: 20px;
 }
 .registration_button{
         width: 248px;
@@ -322,7 +341,7 @@ body {
 }
 
 .footer_item{
-
+  margin-top: 45px;
 }
 
 .footer_question {
@@ -334,26 +353,22 @@ body {
 
 .footer_gmail {
     color: #FFF;
-    font-family: Roboto;
     font-size: 24px;
-    font-style: normal;
     font-weight: 400;
-    line-height: normal;
     text-decoration-line: underline;
 }
 
 .footer_p {
     color: #FFF;
-    font-family: Roboto;
     font-size: 18px;
-    font-style: normal;
     font-weight: 400;
-    line-height: normal;
+    margin-top: 24px;
 }
 
 .footer_logotype {
     width: 108px;
     height: 81px;
+    margin-top: 24px;
 }
 
 .footer_link {
