@@ -47,11 +47,14 @@ body {
     color: #C7C7C7;
     font-size: 24px;
 }
-.nav-item-ua{
-        color: #ffffff;
-}
-.launge{
-    color: #DCDCDC;
+.launge_ua{
+            color: #DCDCDC;
+            font-family: Roboto;
+            font-size: 24px;
+            font-weight: 300;
+        }
+.launge_eng{
+        color: #DCDCDC;
         font-family: Roboto;
         font-size: 24px;
         font-weight: 300;
@@ -63,7 +66,13 @@ body {
       color: #ffffff;
 }
 
+
+
+
     /* ----------main---------- */
+
+
+
 
 
 .main{
@@ -221,7 +230,7 @@ body {
 .reviews_text {
     width: 228px;
     color: #FFF;
-    font-size: 24px;
+    font-size: 21px;
     font-weight: 400;
     margin-bottom: 8px;
 }
